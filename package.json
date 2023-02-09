@@ -37,7 +37,7 @@
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build"
   },
-  "homepage": " https://kysclient.github.io/wanted-pre-onboarding-frontend/",
+  "homepage": "https://kysclient.github.io/wanted-pre-onboarding-frontend",
   "browserslist": {
     "production": [
       ">0.2%",
