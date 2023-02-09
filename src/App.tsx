@@ -17,7 +17,7 @@ const theme = extendTheme({config});
 function App() {
     return (
         <ChakraProvider resetCSS theme={theme}>
-            <BrowserRouter>
+            <BrowserRouter basename={process.env.PUBLIC_URL}>
                 <Routes>
                     <Route index element={<SignInPage/>}/>
                     <Route path="/todo" element={<TodoPage/>}/>

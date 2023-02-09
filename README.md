@@ -16,6 +16,6 @@ then
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Demo Link
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [https://kysclient.github.io/wanted-pre-onboarding-frontend](https://kysclient.github.io/wanted-pre-onboarding-frontend) to view it in the browser.
 
 
