@@ -7,11 +7,8 @@ const axiosConfig: AxiosRequestConfig = {
     withCredentials: false,
     headers: {
         "Content-Type": "application/json",
-        "Authorization": localStorage.getItem('ACCESS_TOKEN')
     }
 }
-
-
 
 export const client = axios.create(axiosConfig);
 

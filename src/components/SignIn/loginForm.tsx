@@ -43,7 +43,6 @@ export function LoginForm() {
         signIn({email: emailRef.current!.value, password: passwordRef.current!.value})
             .then(response => {
                 setIsLoading(false)
-                console.log('response : ', response)
                 localStorage.setItem("ACCESS_TOKEN", response.data.access_token)
             })
             .catch(e => {
